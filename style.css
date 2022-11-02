@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+#header-config{
+    background-color: rgb(20, 20, 20);
+    height: 60px;  
+}
+
+#nav-config{
+    height: 60px;
+    width: 700px;
+    margin: auto;
+    background-color: rgb(40, 40, 40);
+    position: relative;
+    top: 35%;
+    display: flex;
+}
+
+#just-color{
+    height: 60px;
+    width: 5px;
+    margin-right: 25px;
+    background-color: #3374FF;
+}
+
+#name{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    height: 60px;
+    width: 300px;
+    color: white;
+}
+
+#name > h1{
+    position: relative;
+    top: 15%;
+}
+
+#links-navegation{
+    height: 60px;
+    margin-left: 41px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn-1:hover{
+    background-color: rgba(80, 80, 80, 0.425);
+}
+
+#btn-2:hover{
+    background-color: rgba(80, 80, 80, 0.425);
+}
+
+#btn-3:hover{
+    background-color: rgba(80, 80, 80, 0.425);
+}
+
+.btn-config{
+    color: white;
+    padding: 21px 10px 22px 10px;
+    text-decoration: none;
+    position: relative;
+    top: 35%;
+}
+
+#cover-picture{
+    background-image: url(imagens/imagem-cover-02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+#welcome{
+    position: relative;
+    color: white;
+    width: 200px;
+    height: 45px;
+    top: 30%;
+    left: 55%;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.349);
+}
+
+#content{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+
+    height: 800px;
+}
+
+#boxes{
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    color: white;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.349);
+    position: relative;
+    top: -4%;
+}
+
+.box-config{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-config > h1{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#box-1{
+    background-color: #3374FF;
+}
+
+#box-2{
+    background-color: #FFC500;
+}
+
+#box-3{
+    background-color: #FF2400;
+}
