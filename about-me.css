@@ -1,0 +1,91 @@
+/*Fonte importada do Google*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+
+
+*{    /*Config. das margens gerais*/
+    margin: 0;
+}
+
+/*_____________________//_______________________*/
+
+
+body{ /*configurações do Body*/
+    background-color: rgb(20, 20, 20);;
+}
+
+/*_____________________//_______________________*/
+
+
+#about-me{
+    max-width: 1050px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+@media(max-width: 1015px){
+    #about-me{
+        max-width: 800px;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+#meu-texto{   /*configurações do campo de texto*/
+    height: 550px;
+    width: 550px;
+    color: white;
+    text-align: center;
+}
+
+#meu-texto > h1{
+    font-size: 3.5em;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: italic;
+}
+
+#meu-texto > h2{
+    font-size: 1.8em;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: italic;
+    color: yellow;
+}
+
+#meu-texto > p{
+    font-size: 1em;
+}
+
+.margin-bottom{
+    margin-bottom: 15px;
+}
+
+/*_____________________//_______________________*/
+
+
+
+#profile-pic{
+    width: 450px;
+}
+
+#profile-pic > img{  /*configurações da imagem de perfil*/
+    max-width: 450px;
+}
+
+/*_____________________//_______________________*/
+
+
+
+#botao-voltar{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#back-buttom{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
