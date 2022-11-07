@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+/*Fonte importada do Google*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap'); 
 
 
-*{
+*{    /*Config. das margens gerais*/
     margin: 0;
 }
 
-#header-config{
+#header-config{   /*config. da faixa de fundo principal do cabeçalho*/
     background-color: rgb(20, 20, 20);
     height: 60px;  
 }
 
-#nav-config{
+#nav-config{  /*config. da barra de navegação (central e "flutuante")*/
     height: 60px;
     width: 700px;
     margin: auto;
@@ -20,14 +21,14 @@
     display: flex;
 }
 
-#just-color{
+#just-color{ /*Configurações da ponta colorida da barra de navegação*/
     height: 60px;
     width: 5px;
     margin-right: 25px;
     background-color: #3374FF;
 }
 
-#name{
+#name{ /*Configiração do meu nome na barra de navegação*/
     font-family: 'Rajdhani', sans-serif;
     font-style: italic;
     font-size: 30px;
@@ -36,30 +37,30 @@
     color: white;
 }
 
-#name > h1{
+#name > h1{  /*Configiração do meu nome na barra de navegação*/
     position: relative;
     top: 15%;
 }
 
-#links-navegation{
+#links-navegation{  /*Configuração garal dos botões na barra de navegação*/
     height: 60px;
     margin-left: 41px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#btn-1:hover{
+#btn-1:hover{  /*animação de acender o botão ao passar o mouse por cima*/
     background-color: rgba(80, 80, 80, 0.425);
 }
 
-#btn-2:hover{
+#btn-2:hover{  /*animação de acender o botão ao passar o mouse por cima*/
     background-color: rgba(80, 80, 80, 0.425);
 }
 
-#btn-3:hover{
+#btn-3:hover{  /*animação de acender o botão ao passar o mouse por cima*/
     background-color: rgba(80, 80, 80, 0.425);
 }
 
-.btn-config{
+.btn-config{  /*Configuração geral dos botões na barra de navegação por Classe*/
     color: white;
     padding: 21px 10px 22px 10px;
     text-decoration: none;
@@ -67,7 +68,7 @@
     top: 35%;
 }
 
-#cover-picture{
+#cover-picture{  /*Imagem de capa do site*/
     background-image: url(imagens/imagem-cover-02.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -76,27 +77,15 @@
     height: 350px;
 }
 
-#welcome{
-    position: relative;
-    color: white;
-    width: 200px;
-    height: 45px;
-    top: 30%;
-    left: 55%;
-    font-size: 1.3em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.349);
-}
 
-#content{
+#content{ /*Configurações da box principal do conteúdo*/
     background-color: rgb(20, 20, 20);
     width: 100%;
 
     height: 800px;
 }
 
-#boxes{
+#boxes{ /*box para conter as boxes coloridas alinhadas*/
     height: 200px;
     width: 700px;
     margin: auto;
@@ -107,7 +96,7 @@
     top: -4%;
 }
 
-.box-config{
+.box-config{ /*Configurações gerais das boxes coloridas*/
     height: 200px;
     width: 200px;
     margin: auto;
@@ -116,12 +105,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.box-config > h1{
+.box-config > h1{ /*Configurações dos títulos das Boxes Coloridas*/
     font-size: 25px;
     margin-top: 15px;
 }
 
-#box-1{
+#box-1{ /*Configurações de cores das Boxes*/
     background-color: #3374FF;
 }
 
