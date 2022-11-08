@@ -51,14 +51,17 @@
 
 #btn-1:hover{  /*animação de acender o botão ao passar o mouse por cima*/
     background-color: rgba(80, 80, 80, 0.425);
+    text-shadow: 0px 0px 4px white;
 }
 
 #btn-2:hover{  /*animação de acender o botão ao passar o mouse por cima*/
     background-color: rgba(80, 80, 80, 0.425);
+    text-shadow: 0px 0px 4px white;
 }
 
 #btn-3:hover{  /*animação de acender o botão ao passar o mouse por cima*/
     background-color: rgba(80, 80, 80, 0.425);
+    text-shadow: 0px 0px 4px white;
 }
 
 .btn-config{  /*Configuração geral dos botões na barra de navegação por Classe*/

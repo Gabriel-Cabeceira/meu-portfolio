@@ -9,28 +9,47 @@
 </head>
 <body>
 
-    <section id="about-me">
+    <main id="main-content"> <!--Box principal do conteúdo-->
+        <section id="about-me"> <!--Seção sobre mim-->
+            <section id="meu-texto"> <!--Campo do texto sobre mim-->
+                <h1 class="margin-bottom">Gabriel Cabeceira</h1>
+                <h2 class="margin-bottom">Front-end Developer</h2>
+                <hr class="margin-bottom">
+        
+                <p class="margin-bottom">Olá Pessoal, tenho 23 anos, sou de Uberlândia, atualmente estudante de Análise e desenvolvimento de sistemas. Sempre fui fascinado por tecnologia, computadores, e coisas relacionadas a TI. Acho simplesmete maravilhoso como um simples arquivo HTML, em branco, com um pouco de css, JavaScript entre outras ferramentas além é claro da criatividade, pode se tornar algo tão belo e capaz de chamar a atenção de tantas pessoas e até mesmo gerar resultados. Atualmente estudo na Universidade Anhanguera, tenho conhecimento em HTML, CSS, JavaScript e atualemnte estou aprendendo Node.JS, React.JS, Angular e a linguagem C. Também tenho conhecimento em metodologias Ágeis como Scrum e XP, o básico da linguagem SQL além de versionamento de código com Git e Github.</p>
+                <p class="margin-bottom">Apesar de estar cursando o ensino superior, não me limito apenas ao meio acadêmico, para me tornar um profissional completo também busco outras fontes de conhecimento, por exemplo: Estou cursando atualmente o Bootcamp da NTT Data pela plataforma DIO, também iniciei a Trilha Discover da plataforma Rocketseat. Atualmente estou aberto a oportunidades de trabalho onde possa desenvolver cada vez mais minhas habilidades, enfrentar novos novos desafios e poder fazer parte de uma equipe e contribuir para o crescimento de todos. Qualquer dúvida ou caso queira entrar em contato, será um imenso prazer poder falar com você.</p>
+                <hr class="margin-bottom">
+            </section>
 
-        <section id="meu-texto">
-            <h1 class="margin-bottom">Gabriel Cabeceira</h1>
-            <h2 class="margin-bottom">Front-end Developer</h2>
-            <hr class="margin-bottom">
-            
-            <p class="margin-bottom">Olá Pessoal, tenho 23 anos, sou de Uberlândia, atualmente estudante de Análise e desenvolvimento de sistemas. Sempre fui fascinado por tecnologia, computadores, e coisas relacionadas a TI. Acho simplesmete maravilhoso como um simples arquivo HTML, em branco, com um pouco de css, JavaScript entre outras ferramentas além é claro da criatividade, pode ser tornar algo tão belo e capaz de chamar a atenção de tantas pessoas e até mesmo gerar qualquer tipo de resultado que quiser. Atualmente estudo na Universidaded Anhanguera, tenho conhecimento em HTML, CSS, JavaScript e atualemnte estou aprendendo Node.JS, React.JS, A linguagem C e Angular. Também tenho conhecimento em metodologias Ágeis como Scrum e XP, o básico da linguagem SQL além de versionamento de código com Git e Github.</p>
-
-            <p class="margin-bottom">Apesar de estar cursando o ensino superior, não me limito apenas ao meio acadêmico, para me tornar um profissional completo também busco outras fontes de conhecimento, por exemplo: Estou cursando atualmente o Bootcamp da NTT Data pela plataforma DIO, também iniciei a Trilha Discover da plataforma Rocketseat. Atualmente estou aberto a oportunidades de trabalho onde possa desenvolver cada vez mais minhas habilidades, enfrentar novos novos desafios e poder fazer parte de uma equipe e contribuir para o crescimento de todos. Qualquer dúvida ou caso queira entrar em contato, será um imenso prazer poder falar com você.</p>
-
-            <hr class="margin-bottom">
+            <section id="profile-pic"> <!--Minha foto de perfil-->
+                <picture>
+                    <source media="(max-width: 520px)" srcset="imagens/gabriel-cabeceira-300px.png" type="image/png"> <!--Seleciona a imagem de acordo com o tamanho da resolução-->
+                    <img src="imagens/gabriel-cabeceira-500px.png" alt="Gabriel Cabeceira">
+                </picture>
+            </section>
         </section>
 
 
-        <section id="profile-pic">
-            <img src="imagens/gabriel-cabeceira-500px.png" alt="Gabriel Cabeceira">
+        <section id="curriculo"> <!--seção do meu currículo-->
+            <ul>
+                <li><a class="meu-curriculo" href="arquivos/Currículo Gabriel Cabeceira.pdf" target="_blank" >Meu curriculo</a></li> <!--Abre o curriculo em outra pág-->
+
+                <li><a class="meu-curriculo" download="Currículo Gabriel Cabeceira.pdf" type="application/pdf" href="arquivos/Currículo Gabriel Cabeceira.pdf">Download do curriculo</a></li> <!--Faz o download do currículo-->
+            </ul>
         </section>
 
-    </section>
+        <section id="back-buttom"> <!--Botão para voltar-->
+            <section id="botao-voltar">
+                <a href="index.html">voltar</a>
+            </section>
+        </section>
 
-    <section id="back-buttom"><button><a id="botao-voltar" href="index.html">voltar</a></button></section>
+
+    </main>
+
+    <footer id="rodape">
+
+    </footer>
 
     
 </body>

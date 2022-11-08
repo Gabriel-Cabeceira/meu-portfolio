@@ -7,8 +7,11 @@
     margin: 0;
 }
 
-/*_____________________//_______________________*/
 
+
+
+
+/*_____________________//_______________________*/
 
 body{ /*configurações do Body*/
     background-color: rgb(20, 20, 20);;
@@ -17,26 +20,42 @@ body{ /*configurações do Body*/
 /*_____________________//_______________________*/
 
 
-#about-me{
-    max-width: 1050px;
-    font-family: Arial, Helvetica, sans-serif;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+
+
+
+
+/*_____________________//_______________________*/
+#main-content{
+    max-width: 1100px;
     margin: auto;
+}
+/*_____________________//_______________________*/
+
+
+
+
+
+
+/*_____________________//_______________________*/
+
+#about-me{
+    max-width: 1100px;
+    font-family: Arial, Helvetica, sans-serif; 
+    flex-wrap: wrap-reverse;  /*quebra a linha entre os elementos (boxes)*/
+    align-items: center;    /*Alinha uma box e seu conteúdo ao centro da outra box ao lado*/
+    display: flex;
+    justify-content: space-between;  /*justifica o espaçamento das boxes*/
 }
 
 @media(max-width: 1015px){
+
     #about-me{
-        max-width: 800px;
-        margin: auto;
+        padding: 2.1em;
         justify-content: center;
     }
 }
 
 #meu-texto{   /*configurações do campo de texto*/
-    height: 550px;
     width: 550px;
     color: white;
     text-align: center;
@@ -52,11 +71,12 @@ body{ /*configurações do Body*/
     font-size: 1.8em;
     font-family: 'Rajdhani', sans-serif;
     font-style: italic;
-    color: yellow;
+    color: #FFC500;
 }
 
 #meu-texto > p{
     font-size: 1em;
+    line-height: 1.2em;
 }
 
 .margin-bottom{
@@ -67,25 +87,99 @@ body{ /*configurações do Body*/
 
 
 
-#profile-pic{
-    width: 450px;
-}
+
+
+
+/*_____________________//_______________________*/
+
 
 #profile-pic > img{  /*configurações da imagem de perfil*/
     max-width: 450px;
+    
 }
 
 /*_____________________//_______________________*/
 
 
 
-#botao-voltar{
-    text-decoration: none;
-    font-size: 1.5em;
-}
+
+
+
+/*_____________________//_______________________*/
+
 
 #back-buttom{
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    margin: auto;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 6px;
+    
+}
+
+#botao-voltar{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5em;
     width: 60px;
-    height: 60px;
     margin: auto;
 }
+
+#botao-voltar > a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+#back-buttom:hover{
+    text-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 5px white;
+}
+
+/*_____________________//_______________________*/
+
+
+
+
+
+
+/*_____________________//_______________________*/
+
+#curriculo{
+    line-height: 1.8em;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#curriculo > ul { 
+    list-style: circle;
+    color: white;
+}
+
+#curriculo > ul > li > a{ 
+    text-decoration: none;
+    color: white;
+}
+
+#curriculo > ul > li > a:hover{ 
+    text-shadow: 0px 0px 8px white;
+}
+
+/*_____________________//_______________________*/
+
+
+
+
+
+
+/*_____________________//_______________________*/
+
+#rodape{
+    height: 300px;
+}
+
+/*_____________________//_______________________*/
