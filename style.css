@@ -191,7 +191,7 @@ body{
 
 @media (max-width: 900px){
     #port-conteudo{
-        max-width: 363px;
+        max-width: 350px;
     }
 }
 
@@ -206,19 +206,14 @@ body{
     margin-top: 3em;
 }
 
-.sites-port > img{
-    width: 350px;
+.img-port{
+    height: 300px;
+    max-width: 348px;
 }
 
 @media(min-width: 900px){
     .sites-port{
         max-height: 300px;
-    }
-}
-
-@media (max-width: 500px){
-    .sites-port{
-        max-width: 350px;
     }
 }
 
