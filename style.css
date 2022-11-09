@@ -206,9 +206,10 @@ body{
     margin-top: 3em;
 }
 
-.img-port{
+.site{
+    min-width: 348px;
     height: 300px;
-    max-width: 348px;
+
 }
 
 @media(min-width: 900px){
@@ -245,3 +246,4 @@ body{
 .lnk-portfolio:hover{
     text-shadow: 0px 0px 3px white;
 }
+
