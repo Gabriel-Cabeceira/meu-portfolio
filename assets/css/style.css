@@ -114,7 +114,7 @@ body{
 }
 
 #cover-picture{  /*Imagem de capa do site*/
-    background-image: url(/assets/imagens/imagem-cover-02.png);
+    background-image: url(../imagens/imagem-cover-02.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
