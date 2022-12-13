@@ -1,6 +1,9 @@
 
-const navegation_mobile = document.getElementById("navegation_mobile")
+const navegation_mobile = document.getElementById('navegation_mobile')
 
-navegation_mobile.addEventListener("click", function(){
-    window.alert("Cliquei no menu")
-})
+function toggleMenu(){
+    const nav = document.getElementById('nav')
+    nav.classList.toggle('active')
+}
+
+navegation_mobile.addEventListener("click", toggleMenu)

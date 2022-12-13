@@ -44,9 +44,10 @@
     margin: auto;
 }
 
-#navegation-desktop{  /*Configuração garal dos botões na barra de navegação*/
+#navegation_desktop{  /*Configuração garal dos botões na barra de navegação*/
     height: 60px;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
 #btn-1:hover{  /*animação de acender o botão ao passar o mouse por cima*/
@@ -68,13 +69,24 @@
     color: white;
     padding: 21px 10px 22px 10px;
     text-decoration: none;
-    position: relative;
-    top: 35%;
+    display: flex;
+}
+
+#nav.active #navegation_desktop{
+    display: block;
+    position: absolute;
+    background-color: rgba(40, 40, 40, 0.815);
+    top: 60px;
+    right: 1%;
+    height: 250px;
+    width: 40%;
+    z-index: 1000;
 }
 
 
+
 @media (max-width: 717px){
-    #navegation-desktop{
+    #navegation_desktop{
         display: none;
     }
 
